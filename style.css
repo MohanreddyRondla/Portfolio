@@ -220,7 +220,7 @@ a {
   width: 100%;
   box-shadow: 0 10px 100px -5px #eee;
   z-index: 1000;
-  background: #fff;
+  background:rgba(var(--themeColor), 1);;
 }
 
 .main-header__logo-container {
