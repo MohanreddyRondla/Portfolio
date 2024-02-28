@@ -97,7 +97,9 @@ a {
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 90%;
+  width: 80%;
+  margin-top: 0px;
+
 }
 
 .main-section {
@@ -115,6 +117,7 @@ a {
 
   .main-section__content {
     margin-top: 9rem;
+    
   }
 }
 
@@ -406,7 +409,7 @@ a {
   margin: auto;
   width: 90%;
 
-  animation: downToUp 0.8s;
+  animation: downToUp 1.0s;
 }
 
 @media (max-width: 37.5em) {
@@ -432,7 +435,7 @@ a {
 
 @media (max-width: 37.5em) {
   .home-hero__heading-primary {
-    margin-bottom: 4.5rem;
+    margin-bottom: 2rem;
   }
 
   .home-hero__btn-theme,
@@ -447,7 +450,8 @@ a {
 
 /* About */
 .about {
-  background: rgb(252, 252, 252);
+  background: rgb(255, 255, 255);
+  
 }
 
 .about__info {
@@ -460,6 +464,7 @@ a {
   .about__info {
     grid-template-columns: 1fr;
     grid-gap: 6rem;
+    
   }
 
   .about__btn-theme {
@@ -645,6 +650,7 @@ a {
 .projects__list-item-img-cont {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .projects__list-item-img {
